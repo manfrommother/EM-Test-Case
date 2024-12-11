@@ -2,7 +2,7 @@
 
 Revision ID: initial_migration
 Revises: 
-Create Date: 2024-12-10 10:00:00.000000
+Create Date: 2024-12-11 21:00:00.000000
 
 """
 from typing import Sequence, Union
