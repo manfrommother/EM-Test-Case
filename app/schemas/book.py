@@ -9,7 +9,7 @@ class BookBase(BaseModel):
 
 
 class BookCreate(BookBase):
-    pass 
+    pass
 
 
 class BookUpdate(BookBase):
@@ -19,10 +19,7 @@ class BookUpdate(BookBase):
     author_id: int | None = None
 
 
-class BookInDB(BaseModel):
+class Book(BookBase):
     id: int
+    
     model_config = ConfigDict(from_attributes=True)
-
-
-class Book(BookInDB):
-    pass 
